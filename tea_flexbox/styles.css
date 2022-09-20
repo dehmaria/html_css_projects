@@ -1,0 +1,136 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    margin: 0px 20px;  
+}
+
+h2, h3, h4, h5, p {
+    text-align: center;
+}
+
+a {
+    color: seashell;
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 20px;
+    width: 100%;
+}
+
+li {
+    text-decoration: underline;
+    margin: 0 20px;
+}
+
+#tea {
+    padding: 60px 0;
+}
+
+.logo {
+    margin: 10px;
+    height: 50px;
+}
+
+.list-nav {
+    display: inline-flex;
+    width: 100%;
+}
+
+
+.mission {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.mission-img {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1yy63rr*_ga*MjAzMjc1MzgyNC4xNjEwOTIxMzkz*_ga_3LRZM6TM9L*MTY2MzU1MDk5Mi4xMTYuMS4xNjYzNTUxMDUyLjYwLjAuMA..);
+    height: 700px;
+    display: flex-inline;
+}
+
+.center {
+    align-items: center;
+  }
+
+.text-mission{
+    background-color: black;
+    width: 100%;
+}
+
+.locations-img {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1yy63rr*_ga*MjAzMjc1MzgyNC4xNjEwOTIxMzkz*_ga_3LRZM6TM9L*MTY2MzU1MDk5Mi4xMTYuMS4xNjYzNTUxMDUyLjYwLjAuMA..);
+    min-height: 500px;
+}
+
+.text-locations {
+    background-color: black;
+    padding: 10px;
+    width: 300px;
+    min-height: 300px;
+    margin: 10px 20px;
+    line-height: 200%;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location-title {
+    padding-top: 20px;
+}
+
+.copyright {
+    text-align: left;
+}
+
+.featured-container { 
+    max-width: 1000px;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-of-month {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.featured-img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+figure {
+    margin: 10px;
+}
