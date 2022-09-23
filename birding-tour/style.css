@@ -1,0 +1,183 @@
+html {
+	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+header .content {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	background-color: white;
+	margin: 0;
+	width: 100%;
+	border-bottom: 1px solid #227359;
+}
+
+
+header nav a, .logo {
+	color: #27664C;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1.2rem;
+	margin: 0px;
+}
+
+header nav li {
+	margin: 0 2rem;
+	list-style: none;
+}
+
+header .logo {
+	font-weight: bold;
+	font-size: 1.5rem;
+	z-index: 100;
+	flex: 1;
+}
+
+.img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-content .banner{
+	background-image: url(./images/bird1.png);
+	z-index: 200;
+	height: 53rem;
+	width: 100%;
+}
+
+
+.description {
+	background-color: white;
+	z-index: 300;
+	width: 100%;
+	color: #27664C;
+	text-align: center;
+	padding: 2rem;
+}
+
+h2 {
+	font-size: 2.3rem;
+}
+
+.description h2 {
+	margin: 1rem 0 0 0;
+}
+
+.description p {
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+
+.welcome{
+	display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.birds {
+    background-color: #08663F;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.bird-section {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bird-pictures {
+    background-color: white;
+    margin: 0 4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.small-pictures {
+	width: 15rem;
+	height: 15rem;
+	margin: 1rem 0;
+	border: 1px solid #08663F;
+	border-radius: 10px;
+}
+
+.birds h2 {
+	color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.about-us h2, p {
+	text-align: center;
+	color: #08663F;
+}
+
+.about-us h2 {
+	margin: 4rem 0 2rem 0;
+}
+
+.about-us p {
+	font-size: 1.4rem;
+	margin: 2rem 10rem;
+	line-height: 2rem;
+}
+
+footer {
+    background-color: #08663F;
+    padding: 2rem;
+    margin-top: 4rem;
+    color: white;
+    text-align: center ;
+}
+
+
+@media only screen and (max-width: 760px) {
+	.small-pictures {
+		width: 20rem;
+		height: 20rem;
+	}
+
+	.about-us p {
+	    margin: 2rem 5rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
